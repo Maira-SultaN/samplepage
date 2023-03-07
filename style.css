@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+
+  header {
+    background-image: linear-gradient(yellow,orange);
+    padding: 10px;
+    font-size: 20px;
+   float: right;
+   width: 83%;
+   padding-left: 10px;
+  
+  }
+  
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  nav a {
+    display: block;
+    padding: 5px 10px;
+    color: white;
+  }
+
+  nav a:hover {
+    color: black;
+    background-color:white;
+    text-decoration: underline;
+  }
+
+  aside {
+    background-color: red;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    height: 600px;
+    width: 200px;
+  }
+
+  aside h1 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: xx-large;
+  }
+
+  aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  aside li {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: large;
+  }
+
+.fancybox{
+   
+    float: left;
+}
+.aside{
+    position: fixed;
+    height: 100%;
+    float: left;
+}
+.outer{
+  margin-left: 250px;
+}
+.outer h2{
+    font-size: xx-large;
+   padding-top: 30px;
+   
+    font-weight: bold;
+}
+.outer h3{
+    font-size: x-large;
+   
+    color: red;
+    font-weight: bold;
+}
+.services h1{
+   
+   font-size: 30px;
+   color: red;
+   font-weight: bold;
+}
+.services p{
+    
+    padding-right: 25px;
+    text-align: justify;
+}
+.inner{
+   
+    font-weight: bold;
+    font-size: 20px;
+}
+ /* card */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 280px;
+    margin: 0px;
+    text-align: center;
+    background-color: lightgray;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  .outercard{
+    display: grid;
+    grid-column: 3;
+    grid-template-columns: auto auto auto;
+    
+  }
+  .inner2 h1{
+   
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+  }
+  .inner2 p{
+   
+    padding-right: 25px;
+    text-align: justify;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 95%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 16px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color:lightgrey;
+  }
+  table th{
+    background-color: red;
+    color: white;
+  }
+  button{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+  }
+  .contact h1{
+   
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+  }
+  .contact p{
+   
+    padding-right: 25px;
+    text-align: justify;
+  }
+  input[type=text], select{
+    width: 90%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  
